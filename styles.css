@@ -1,0 +1,81 @@
+body {
+  height: 1000px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: inline-block;
+  vertical-align: top;
+  background-color: hsl(0, 0%, 12%);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 100px;
+}
+
+.image {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.photo {
+  width: 90px;
+  border-radius: 50%;
+}
+
+
+.name {
+  text-align: center;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.place {
+  text-align: center;
+  font-weight: 600;
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.job {
+  text-align: center;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  display: block;
+  text-align: center;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+  border-radius: 10px;
+  width: 280px;
+  padding: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+  background-color: hsl(75, 94%, 57%);
+}
